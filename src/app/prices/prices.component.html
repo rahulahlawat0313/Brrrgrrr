@@ -1,0 +1,12 @@
+
+<table class="ingredients">
+  <h2>Prices</h2>
+  <tr *ngFor="let ingredient of ingredients">
+    <td>
+      <span class="badge">{{ingredient.name}}</span>
+    </td>
+    <td>
+      <span class="name">{{ingredient.price}}</span>
+    </td>
+  </tr>
+</table>

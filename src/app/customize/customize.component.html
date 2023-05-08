@@ -1,0 +1,28 @@
+<div>
+ <div class="customise">
+    <h2>Choose what goes into your burger</h2>
+    <button type="button" *ngFor="let ingredient of ingredients" (click)="onSelect(ingredient)"  [ngClass]="{'active' : ingredient.selected, 'inactive': !ingredient.selected}">
+        <span class="badge">{{ingredient.name}}</span>
+    </button>
+ </div>
+
+ <div class="billing">
+    <h3>Order Total</h3>
+    <br>
+    <h2>INR {{totalBill}}</h2>
+    <br>
+    <button type="button" class="btn btn_danger">Pay and receive order
+        <!-- <span class="badge">Pay and receive order</span> -->
+    </button>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+.active {
+    background-color: orange;
+}
+
+.inactive {
+    background-color: yellow;
+}
+
+.billing{
+    position: absolute;
+    right: 300px;
+    width: 300px;
+    padding-left: 50px;
+
+    background-color: blueviolet;
+}
+.customise{
+    position: absolute;
+    left: 50px;
+    padding: 30px;
+    
+}
+
+
